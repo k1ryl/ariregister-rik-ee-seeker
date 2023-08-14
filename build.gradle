@@ -23,6 +23,8 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'net.sourceforge.htmlunit:htmlunit:2.70.0'
+    implementation 'org.jsoup:jsoup:1.16.1'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
